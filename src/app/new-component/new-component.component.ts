@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './new-component.component.css'
 })
 export class NewComponentComponent {
-  x = 'age : 15';
-  z = 'namne : irina'
-  r = 'i do volleyball, aerobics.' 
-  i = 'i will lead as active a lifestyle as possible'
+ age = 'age : 15';
+  name = 'namne : irina';
+  info = 'i do volleyball, aerobics.'; 
+  sport = 'I lead an active lifestyle';
 }
