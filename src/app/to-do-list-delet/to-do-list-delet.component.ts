@@ -10,5 +10,9 @@ import { NgFor } from '@angular/common'
   styleUrl: './to-do-list-delet.component.css'
 })
 export class ToDoListDeletComponent {
-  ListAdd = ListAdd
+  array = ListAdd
+  moveTwo(x:number){
+  this.array = this.array.filter(itemId => itemId.id !== x)
+  
+  }
 }

@@ -4,12 +4,11 @@ import { NewComponentComponent } from './new-component/new-component.component'
 import { ToDoListAddComponent } from './to-do-list-add/to-do-list-add.component'
 import { ToDoListDeletComponent} from './to-do-list-delet/to-do-list-delet.component'
 import { NgFor } from '@angular/common'
-import { PersonalpageComponent } from './personalpage/personalpage.component'
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,NewComponentComponent,NgFor,ToDoListDeletComponent,ToDoListAddComponent,PersonalpageComponent],
+  imports: [RouterOutlet,NewComponentComponent,NgFor,ToDoListDeletComponent,ToDoListAddComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
