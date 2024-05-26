@@ -1,0 +1,17 @@
+#div1{
+    display: flex;
+    padding: 10px 0px 0px 0px;
+}
+#div2{padding-left: 10px ;}
+#div3{padding-left: 10px ;}
+#inpytcheck{
+    background-color: rgb(247, 247, 247);
+    border: 1px solid black ;
+    border-radius: 25%;
+    padding-top: 10px;
+    padding-top: 10px;
+    margin-right: 5px;
+}
+#inpytcheck:hover{
+   background-color: greenyellow;
+}

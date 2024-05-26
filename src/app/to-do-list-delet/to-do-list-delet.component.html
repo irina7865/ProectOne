@@ -1,7 +1,9 @@
+
+
 <div>
     <ul>
-         <li *ngFor = "let item of array">
-         {{item.name}} <button (click)="moveTwo(item.id)">Delet</button>
+         <li *ngFor = "let item of array" >
+            <button type="checkbox" (click)="moveTwo(item.id)" id="inpytcheck"></button>{{item.name}} <button (click)="moveTwo(item.id)">Delet</button> 
         </li>  
     </ul>
 </div>
